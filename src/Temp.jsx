@@ -41,7 +41,7 @@ const Temp = () => {
                                 <h1 className="temp">
                                     {city.temp}
                                 </h1>
-                                <h3 className="tempmin_max">Min : {city.temp_min}°cel | Max :{city.temp_max}°cel</h3>
+                                <h3 className="tempmin_max">MinTemp : {city.temp_min}°cel | MaxTemp :{city.temp_max}°cel</h3>
                             </div>
                         </div>
                     )
